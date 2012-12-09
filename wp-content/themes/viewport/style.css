@@ -227,6 +227,12 @@ body.page-template-template-full-width-php #content { background: url(images/1co
 	width: 100%;
 	margin-top: 0;
 	padding-top: 0;
+	overflow: hidden;
+}
+
+.page-template-template-home-custom-fullwidth-php #sidebar #comprehensivegooglemap-2 {
+	position: static;
+	float: left;
 }
 
 .page-template-template-home-custom-fullwidth-php #sidebar li {
