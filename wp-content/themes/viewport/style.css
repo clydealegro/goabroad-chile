@@ -198,7 +198,9 @@ a[href$=".jpg"], a[href$=".jpg"]:hover { border-bottom: none; }
 	width: 640px;
 }
 
-.page-template-template-home-fullwidth-php #primary { width: 100%; }
+.page-template-template-home-fullwidth-php #primary, .page-template-template-home-custom-fullwidth-php #primary { 
+	width: 100%; 
+}
 
 #content { 
 	padding-top: 10px;
@@ -206,7 +208,9 @@ a[href$=".jpg"], a[href$=".jpg"]:hover { border-bottom: none; }
 }
 
 body.home #content,
-body.page-template-template-home-fullwidth-php #content { background: url(images/3col_back.png) repeat-y; }
+body.page-template-template-home-fullwidth-php #content, body.page-template-template-home-custom-fullwidth-php #content { 
+	background: url(images/3col_back.png) repeat-y; 
+}
 
 body.page-template-template-home-blog-php #content { background: url(images/2col_back_single.png) repeat-y; }
 
