@@ -76,13 +76,6 @@ Template Name: Home Page Custom Full Width
 			
 			</div>
 
-			<?php /*
-			<!--BEGIN .navigation .page-navigation -->
-			<div class="navigation page-navigation clearfix">
-				<div class="nav-next"><?php next_posts_link(__('<span>&larr;</span> Older Entries', 'zilla')) ?></div>
-				<div class="nav-previous"><?php previous_posts_link(__('Newer Entries <span>&rarr;</span>', 'zilla')) ?></div>
-			<!--END .navigation .page-navigation -->
-			</div>
-			*/ ?>
+			<?php get_sidebar(); ?>
 <?php $wp_query = null; $wp_query = $temp;?>
 <?php get_footer(); ?>
