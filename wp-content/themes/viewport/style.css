@@ -204,12 +204,12 @@ a[href$=".jpg"], a[href$=".jpg"]:hover { border-bottom: none; }
 
 #content { 
 	padding-top: 10px;
-	background: url(images/2col_back_single.png) repeat-y;
+
 }
 
 body.home #content,
 body.page-template-template-home-fullwidth-php #content, body.page-template-template-home-custom-fullwidth-php #content { 
-	background: url(images/3col_back.png) repeat-y; 
+	
 }
 
 body.page-template-template-home-blog-php #content { background: url(images/2col_back_single.png) repeat-y; }
@@ -220,6 +220,34 @@ body.page-template-template-full-width-php #content { background: url(images/1co
 	float: right;
 	width: 320px;
 	padding-top: 25px;
+}
+
+.page-template-template-home-custom-fullwidth-php #sidebar {
+	float: none;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.page-template-template-home-custom-fullwidth-php #sidebar li {
+	text-align: center;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.page-template-template-home-custom-fullwidth-php #sidebar li span a {
+	font-size: 24px;
+}
+
+.page-template-template-home-custom-fullwidth-php #sidebar li a {
+	font-size: 16px;
+	text-transform: lowercase;
+}
+
+.page-template-template-home-custom-fullwidth-php #sidebar .widget {
+	background: none;
+	padding-top: 0;
+
 }
 
 .post,
